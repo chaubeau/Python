@@ -1,0 +1,6 @@
+svn checkout http://pygraphics.googlecode.com/svn/trunk/ pygraphics-read-only
+python setup.py install
+Download ampy-1.2.3.tar.gz from the Downloads page , and follow the same procedure to install it as for PyGraphics.
+rpm -i python-tk-2.7.3-10.8.1.i586.rpm
+rpm -i tix-8.4.3-65.1.1.i586.rpm
+rpm -i python-imaging-1.1.7-15.1.1.i586.rpm
