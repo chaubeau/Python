@@ -33,8 +33,8 @@ def smallest_value(r):
         line = line.strip()
         value = int(line)
         if value  < smallest:
-            smallest = value
-
+            #smallest = value
+            print smallest
     return smallest
 
 
