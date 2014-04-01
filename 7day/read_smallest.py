@@ -31,10 +31,11 @@ def smallest_value(r):
 
     for line in r:
         line = line.strip()
-        value = int(line)
-        if value  < smallest:
-            #smallest = value
-            print smallest
+        if line != '-':
+            value = int(line)
+            if value  < smallest:
+                smallest = value
+                #print smallest
     return smallest
 
 
